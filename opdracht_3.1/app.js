@@ -4,7 +4,7 @@ text.innerText = "u heeft voldoende budget";
 
 let budget = 100;
 
-let product = 60;
+let product = prompt();
 
 if (budget > product ) {
     text.innerText = "u heeft voldoende budget"
