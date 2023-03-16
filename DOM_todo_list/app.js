@@ -14,4 +14,13 @@ container.appendChild(paragraph);
 //input wordt leeg gemaakt nadat het is toegevoegd aan de paragraaf 
 inputfield.value = "";
 
+
+paragraph.addEventListener("click", function(e){
+    e.target.style.textDecoration = "line-through";
+})
+
+paragraph.addEventListener("dblclick", function(e){
+    e.target.remove();
+})
+
 });
