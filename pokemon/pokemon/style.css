@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  
+}
+
+section {
+  background-color: white;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column
+  ;
+}
