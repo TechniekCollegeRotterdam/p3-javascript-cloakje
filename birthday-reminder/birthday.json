@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Maximiliaan Johannes Franciscus Marinus De Bruijn",
+        "age": "16",
+        "img": "./img/max.png"
+    },
+
+    {
+        "name": "Bram Simone Van Dijk",
+        "age": "20",
+        "img": "./img/bram.png"
+    },
+
+    {
+        "name": "Jamal Abudabi",
+        "age": "27",
+        "img": "./img/jamal.png"
+    },
+
+    {
+        "name": "Menno Stroop",
+        "age": "17",
+        "img": "./img/menno.png"
+    },
+
+    {
+        "name": "Jason Van SChaik",
+        "age": "34",
+        "img": "./img/jason.png"
+    },
+
+    {
+        "name": "Gert Van Truit",
+        "age": "19",
+        "img": "./img/gert.png"
+    }
+
+]

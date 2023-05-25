@@ -1,0 +1,18 @@
+img {
+    width: 10vw;
+    height: 10vh;
+    border-radius: 65%;
+}
+
+body {
+    background-color: mediumorchid;
+    display: flex;
+    justify-content: center;
+}
+
+.birthdays {
+    width: 50%;
+    height: 50%;
+    background-color: cornsilk;
+}
+
