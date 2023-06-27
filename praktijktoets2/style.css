@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+    font-family: "Varela Round", sans-serif;
+  }
+  
+  .body-index {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../img/summerbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  
+  .title {
+    font-size: 5rem;
+    text-align: center;
+    color: rgb(34, 68, 130);
+  }
+  
+  .description {
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(30, 53, 95);
+  }
+  
+  .form {
+    display: flex;
+    width: 65rem;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.25);
+  }
+  
+  .form-fname {
+    padding: 1rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(228, 242, 252);
+    font-family: "Varela Round", sans-serif;
+    color: rgb(34, 68, 130);
+  }
+  
+  .form-lname {
+    padding: 1rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(228, 242, 252);
+    font-family: "Varela Round", sans-serif;
+    color: rgb(34, 68, 130);
+  }
+  
+  .form-residence {
+    padding: 1rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(228, 242, 252);
+    font-family: "Varela Round", sans-serif;
+    color: rgb(34, 68, 130);
+  }
+  
+  .form-email {
+    padding: 1rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(228, 242, 252);
+    font-family: "Varela Round", sans-serif;
+    color: rgb(34, 68, 130);
+  }
+  
+  .form-phone {
+    padding: 1rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(228, 242, 252);
+    font-family: "Varela Round", sans-serif;
+    color: rgb(34, 68, 130);
+  }
+  
+  input::placeholder {
+    color: rgb(153, 174, 213);
+  }
+  
+  .form-submit {
+    padding: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: rgb(26, 77, 149);
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+    font-family: "Varela Round", sans-serif;
+    transition: all ease-in-out 0.1s;
+  }
+  
+  .form-submit:hover {
+    background-color: rgb(15, 48, 95);
+  }
+  
+  .body-admin {
+    background-image: url("../img/summerbg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+  }
+  
+  .admin-title {
+    font-size: 5rem;
+    text-align: center;
+    color: rgb(34, 68, 130);
+    margin-bottom: 2rem;
+  }
+  
+  .table-container {
+    width: fit-content;
+    margin: auto;
+    margin-top: 5rem;
+  }
+  
+  .admin-table {
+    font-size: 1.5rem;
+    background-color: white;
+  }
+  
+  .admin-head {
+    background-color: rgb(34, 68, 130);
+    color: white;
+  }
+  
+  .admin-head-rowitem-id {
+    width: 10rem;
+    text-align: start;
+  }
+  
+  .admin-head-rowitem-fname {
+    width: 15rem;
+    text-align: start;
+  }
+  
+  .admin-head-rowitem-lname {
+    width: 20rem;
+    text-align: start;
+  }
+  
+  .admin-head-rowitem-res {
+    width: 20rem;
+    text-align: start;
+  }
+  
+  .admin-head-rowitem-mail {
+    width: 30rem;
+    text-align: start;
+  }
+  
+  .admin-head-rowitem-phone {
+    width: 20rem;
+    text-align: start;
+  }
+  
+  th,
+  td {
+    padding: 1rem;
+  }
+  
+  .delete-btn {
+      font-size: 2rem;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-family: "Varela Round", sans-serif;
+      transition: all ease-in-out 0.1s;
+  }
+  
+  .delete-btn:hover {
+      transform: scale(1.2);
+      color: rgb(34, 68, 130);
+      font-weight: 600;
+  }

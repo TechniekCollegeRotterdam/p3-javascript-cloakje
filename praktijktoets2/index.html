@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Festival Zeeland</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body-index">
+    <main>
+      <section class="container">
+        <div class="title-box">
+          <h1 class="title">Festival Zeeland</h1>
+          <p class="description">
+            Vul hieronder de gegevens in om te registreren.
+          </p>
+        </div>
+        <form id="form" class="form">
+          <input
+            class="form-fname"
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="Voornaam"
+          />
+          <input
+            class="form-lname"
+            type="text"
+            id="lname"
+            name="lname"
+            placeholder="Achternaam"
+          />
+          <input
+            class="form-residence"
+            type="text"
+            id="residence"
+            name="residence"
+            placeholder="Postcode"
+          />
+          <input
+            class="form-email"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Emailadres"
+          />
+          <input
+            class="form-phone"
+            type="phone"
+            id="phone"
+            name="phone"
+            placeholder="Telefoonnummer"
+          />
+          <input onclick="alertMessage()" class="form-submit" value="Submit" type="submit">
+        </form>
+      </section>
+    </main>
+    <script src="../js/index.js"></script>
+  </body>
+</html>
