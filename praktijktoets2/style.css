@@ -12,7 +12,7 @@
   .body-index {
     height: 100vh;
     width: 100vw;
-    background-image: url(../img/summerbg.jpg);
+    background-image: url(./img/summer\ voor\ toets.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -30,13 +30,13 @@
   .title {
     font-size: 5rem;
     text-align: center;
-    color: rgb(34, 68, 130);
+    color: rgb(0, 254, 42);
   }
   
   .description {
     font-size: 2rem;
     text-align: center;
-    color: rgb(30, 53, 95);
+    color: rgb(0, 254, 42);
   }
   
   .form {
@@ -58,7 +58,7 @@
     border-radius: 0.5rem;
     background-color: rgb(228, 242, 252);
     font-family: "Varela Round", sans-serif;
-    color: rgb(34, 68, 130);
+    color: rgb(0, 254, 42);
   }
   
   .form-lname {
@@ -68,7 +68,7 @@
     border-radius: 0.5rem;
     background-color: rgb(228, 242, 252);
     font-family: "Varela Round", sans-serif;
-    color: rgb(34, 68, 130);
+    color: rgb(0, 254, 42);
   }
   
   .form-residence {
@@ -78,7 +78,7 @@
     border-radius: 0.5rem;
     background-color: rgb(228, 242, 252);
     font-family: "Varela Round", sans-serif;
-    color: rgb(34, 68, 130);
+    color: rgb(0, 254, 42);
   }
   
   .form-email {
@@ -88,7 +88,7 @@
     border-radius: 0.5rem;
     background-color: rgb(228, 242, 252);
     font-family: "Varela Round", sans-serif;
-    color: rgb(34, 68, 130);
+    color: rgb(0, 254, 42);
   }
   
   .form-phone {
@@ -98,7 +98,7 @@
     border-radius: 0.5rem;
     background-color: rgb(228, 242, 252);
     font-family: "Varela Round", sans-serif;
-    color: rgb(34, 68, 130);
+    color: rgb(0, 254, 42);
   }
   
   input::placeholder {
@@ -109,7 +109,7 @@
     padding: 1rem;
     font-size: 2rem;
     cursor: pointer;
-    background-color: rgb(26, 77, 149);
+    background-color: rgb(0, 254, 42);
     color: white;
     border-radius: 0.5rem;
     border: none;
@@ -118,7 +118,7 @@
   }
   
   .form-submit:hover {
-    background-color: rgb(15, 48, 95);
+    background-color: rgb(0, 254, 42);
   }
   
   .body-admin {
@@ -133,7 +133,7 @@
   .admin-title {
     font-size: 5rem;
     text-align: center;
-    color: rgb(34, 68, 130);
+    color: rgb(0, 254, 42);
     margin-bottom: 2rem;
   }
   
@@ -149,7 +149,7 @@
   }
   
   .admin-head {
-    background-color: rgb(34, 68, 130);
+    background-color: rgb(0, 254, 42);
     color: white;
   }
   
@@ -199,6 +199,6 @@
   
   .delete-btn:hover {
       transform: scale(1.2);
-      color: rgb(34, 68, 130);
+      color: rgb(0, 254, 42);
       font-weight: 600;
   }

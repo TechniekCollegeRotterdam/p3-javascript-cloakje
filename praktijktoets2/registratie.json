@@ -1,0 +1,44 @@
+{
+    "registrations": [
+      {
+        "fname": "Bram",
+        "lname": "Simone van Dijke",
+        "residence": "3040RA",
+        "email": "9020733@student.zadkine.nl",
+        "phone": "0612345678",
+        "id": 1
+      },
+      {
+        "fname": "Bart",
+        "lname": "Slagboom",
+        "residence": "3333XX",
+        "email": "bartslagboom@gmail.com",
+        "phone": "0699113201",
+        "id": 2
+      },
+      {
+        "fname": "Maximiliaan",
+        "lname": "de Bruijn",
+        "residence": "3232XA",
+        "email": "maxbruijn@outlook.com",
+        "phone": "0611118868",
+        "id": 3
+      },
+      {
+        "fname": "Jason",
+        "lname": "van Schaik",
+        "residence": "3333AA",
+        "email": "jasonschaik@tcrmbo.com",
+        "phone": "0600038752",
+        "id": 4
+      },
+      {
+        "fname": "Menkoter",
+        "lname": "Stroop",
+        "residence": "3010BA",
+        "email": "menkoter@dirksland.nl",
+        "phone": "0612345678",
+        "id": 5
+      }
+    ]
+  }
